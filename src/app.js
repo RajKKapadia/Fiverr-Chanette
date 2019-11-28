@@ -28,7 +28,7 @@ const documentClient = new dialogflow.DocumentsClient({
 });
 
 // Webhook GET method to check it's working
-webApp.get('/webhook', (req, res) => {
+webApp.get('/', (req, res) => {
     res.send('Hello World');
 });
 
